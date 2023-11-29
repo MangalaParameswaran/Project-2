@@ -1,0 +1,66 @@
+body{
+    background-color: bisque;
+}
+#Fetch-Btn{
+    box-shadow:  -4px -4px 14px grey ,
+    4px 4px 14px grey;
+    color: black !important;
+}
+.btn1st{
+    background-color: whitesmoke !important;
+}
+h1{
+  font-family: 'Courier New', Courier, monospace;  
+  font-weight: bolder;
+  margin-top: 4em !important;
+}
+.input1st{
+    border: none !important;
+    box-shadow:  -4px -4px 14px grey ,
+    4px 4px 14px grey;
+    background-color:whitesmoke;
+    outline: none;
+}
+.details{
+    width: 100vw;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#repoInfo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.img{
+    margin: 10px auto;
+    width: 200px;
+    border-radius: 50%;
+}
+.card{
+    margin-top:5em ;
+    background-color: wheat;
+    box-shadow:  -4px -4px 14px grey ,
+    4px 4px 14px grey;
+}
+h5{
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h5,h6,p{
+    text-align: center;
+    margin-top: 1em;
+}
+.a{
+    margin-left: 7em;
+    margin-top: 1em;
+}
+a{
+    margin-left: 5em;
+    margin-top: 1em;
+}
+
+
+
