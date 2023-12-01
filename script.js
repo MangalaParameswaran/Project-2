@@ -29,17 +29,25 @@ async function getRepos(userName) {
   const repoDetails = await (await fetch(`https://api.github.com/users/${userName}/repos`)).json();
   //  console.log(repoDetails);
   for (let i = 0; i < repoDetails.length; i++) {
-    repoInfom.innerHTML += `<div class="col-lg-12 col-sm-12">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">${repoDetails[i].name}</h5>
-        <h5 class="card-subHead">${repoDetails[i].language}</h5>
-        <a href="${repoDetails[i].html_url}" target="_blank" class="a btn btn-primary">Visit Repo</a>
+    repoInfom.innerHTML += `
+    <div class="col-sm-10 col-md-6 col-12 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">${repoDetails[i].name}</h5>
+          <h5 class="card-subHead">${repoDetails[i].language}</h5>
+          <div class="d-flex justify-content-center">
+          <a href="${repoDetails[i].html_url}" target="_blank" class=" btn btn-primary">Visit Repo</a>
+          </div>
+        </div>
       </div>
-    </div>
     </div>`;
   }
 }
+
+
+
+
+
 
 
 
